@@ -1,0 +1,1294 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Streets of Laternlord | Yash Bhatt</title>
+<style>
+body {
+  margin: 0;
+  background: #10100f;
+  color: #eee8dc;
+  font-family: Georgia, serif;
+  line-height: 1.8;
+}
+header {
+  padding: 20px;
+  text-align: center;
+  color: #d6b16e;
+  border-bottom: 1px solid #59472e;
+}
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(#0009,#000c),
+  url('https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=1400') center/cover;
+}
+h1 { font-size: 48px; color: #d6b16e; }
+.author { color: #d6b16e; font-size: 20px; }
+main { max-width: 850px; margin: auto; padding: 30px 20px; }
+h2 { color: #d6b16e; }
+.chapter {
+  background: #1c1a17;
+  padding: 25px;
+  margin: 20px 0;
+  border: 1px solid #59472e;
+}
+button {
+  background: #d6b16e;
+  color: #111;
+  border: 0;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+.story {
+  white-space: pre-line;
+  font-size: 19px;
+  line-height: 2;
+}
+#reader { display:none; }
+footer {
+  text-align:center;
+  padding:30px;
+  color:#d6b16e;
+}
+</style>
+</head>
+<body>
+
+<header>LATERNLORD MYSTERIES</header>
+
+<section class="hero">
+  <h1>THE STREETS<br>OF LATERNLORD</h1>
+  <p>A mystery thriller</p>
+  <div class="author">Written by Yash Bhatt</div>
+</section>
+
+<main>
+<h2>Welcome, Reader.</h2>
+<p>
+Enter Laternlord, a city of secrets, conspiracies,
+dangerous technology and unanswered questions.
+Follow Detective Mabel as he uncovers the truth
+behind Flight 17.
+</p>
+
+<h2>Read the Novel</h2>
+<div id="chapters"></div>
+
+<section id="reader">
+  <h2 id="chapterTitle"></h2>
+  <div id="story" class="story"></div>
+  <button onclick="back()">Back to Chapters</button>
+</section>
+</main>
+
+<footer>
+THE STREETS OF LATERNLORD<br>
+Written by Yash Bhatt<br>
+© 2026 Yash Bhatt. All rights reserved.
+</footer>
+
+<script>
+const titles = [
+"The Man who followed The Shadows",
+"The Missing Chip",
+"Unfolding the Mystery"
+];
+
+const chapters = [
+`THE STREETS OF LATERNLORD
+Chapter 1: The Man Who Followed the Shadows
+
+Laternlord was a city that never seemed to sleep.
+
+Even at three in the morning, its streets remained alive. Cars slipped through narrow roads, their headlights cutting through the darkness like blades. Tall glass towers rose above the city, their illuminated windows reflecting against the wet streets below. Neon signs flickered over restaurants, underground clubs and forgotten alleyways.
+
+Rain was common in Laternlord, but what made the city unusual was that its streets always appeared wet, even on nights when not a single drop fell from the sky.
+
+To most people, Laternlord was a symbol of progress. Its advanced technology, powerful corporations and impressive architecture made it one of America's most admired cities.
+
+To Detective Mabel, however, it was something else entirely.
+
+It was a beautiful machine hiding a dangerous secret.
+
+Mabel stood beside the window of her apartment, holding a half-finished cup of coffee. Her eyes followed the movement of traffic far below. She had been awake for hours, although she had no particular reason to be.
+
+Perhaps it was the unfamiliar silence of the night.
+
+Or perhaps it was the feeling that something was waiting to happen.
+
+She had come to America from India with a clear ambition: to study criminal investigation and become a detective capable of uncovering the truth, no matter how deeply it was buried.
+
+The journey had not been easy. She had faced unfamiliar surroundings, difficult examinations and countless moments when she had questioned whether she truly belonged in this country.
+
+But she had never abandoned her ambition.
+
+After years of study and training, she had earned her place in the city's investigative department. She had expected difficult cases, exhausting interrogations, unreliable witnesses and the occasional criminal who believed himself cleverer than the law.
+
+What she had not expected was Dellax.
+
+Dellax was one of the most influential technology companies in Laternlord. Its headquarters occupied an enormous glass tower in the financial district, and its owner, Mr. Granger, was known for his wealth, political connections and charitable contributions.
+
+The company had recently announced a revolutionary invention: a small electronic chip that could supposedly protect the city's entire communication network.
+
+According to Dellax, the device would make communication systems almost impossible to breach. Government departments, financial institutions and emergency services would be able to operate with greater security.
+
+The announcement had attracted international attention.
+
+But rumours travelled faster than official statements.
+
+Some claimed that the chip was capable of accessing systems that were never meant to be reached. Others suggested that it could unlock encrypted records, hidden databases and confidential government information.
+
+Dellax dismissed these claims as irresponsible speculation.
+
+Mabel, however, had learned that rumours sometimes began with information someone was desperately trying to hide.
+
+Two evenings later, Mabel received an invitation to a charity event hosted by Mr. Granger.
+
+The event was being held inside the Grand Meridian Hall, an enormous venue overlooking the financial district. Politicians, business executives, celebrities and wealthy investors had gathered to celebrate Dellax's latest technological achievement.
+
+Mabel had initially considered refusing the invitation. Charity parties were not exactly her preferred environment.
+
+Nevertheless, her department had encouraged her to attend.
+
+The event offered an opportunity to observe the people surrounding Dellax and perhaps discover whether the rumours about the mysterious chip had any substance.
+
+She arrived shortly after eight.
+
+The entrance was decorated with golden lights, and photographers stood near the red carpet, capturing images of arriving guests. Inside, soft music played while waiters moved between tables carrying expensive drinks and carefully arranged plates of food.
+
+At the far end of the hall stood a large transparent display case.
+
+Inside it rested the electronic chip.
+
+It was surprisingly small.
+
+Mabel had expected something more impressive, perhaps a sophisticated device surrounded by wires and complicated machinery. Instead, the object looked almost ordinary.
+
+A tiny metallic rectangle.
+
+Yet the entire room seemed to revolve around it.
+
+Mr. Granger stood nearby, greeting guests with the confidence of a man accustomed to controlling every room he entered.
+
+He was in his late fifties, with neatly combed grey hair and a carefully maintained appearance. His expensive black suit contrasted with the silver watch on his wrist.
+
+When he noticed Mabel, he approached her.
+
+"Detective Mabel. I'm glad you could join us."
+
+"Thank you for inviting me, Mr. Granger."
+
+"I hope you're enjoying the evening."
+
+"It's certainly an impressive event."
+
+Granger smiled.
+
+"We've worked hard to bring this technology into existence. Imagine a city where communication is completely secure. No stolen information, no unauthorised access, no hidden threats."
+
+"That would certainly make your company very popular," Mabel replied.
+
+Granger laughed.
+
+"Popularity is not our objective. Security is."
+
+Mabel glanced at the display case.
+
+"And you're absolutely certain the chip can deliver what you've promised?"
+
+For a brief moment, Granger's smile weakened.
+
+"Absolutely."
+
+Something about the speed of his response caught her attention.
+
+Before she could ask another question, a group of investors approached him. Granger excused himself and disappeared into the crowd.
+
+Mabel remained near the display case, observing the security arrangements.
+
+Two guards stood at either side. Several cameras were positioned along the ceiling, and a security officer monitored the area from a nearby control station.
+
+Everything appeared perfectly organised.
+
+Almost too perfectly.
+
+Then she noticed him.
+
+A man stood near the enormous windows overlooking the city.
+
+He was dressed in a dark suit and appeared to be in his forties. His face was partially hidden by the reflection of the lights, making his features difficult to distinguish.
+
+Unlike the other guests, he was not speaking to anyone.
+
+He wasn't drinking.
+
+He wasn't watching the stage.
+
+He was watching the people.
+
+His eyes moved slowly across the room, pausing occasionally on the security guards and the display case.
+
+Mabel observed him for several seconds.
+
+There was something unusual about the way he behaved. He seemed less like a guest attending a charity event and more like someone studying a location before carrying out a carefully planned operation.
+
+She placed her glass on a nearby table and began walking towards him.
+
+But just as she reached the windows, a waiter crossed her path with a tray of drinks.
+
+"Excuse me, Detective."
+
+Mabel stepped aside.
+
+It took only a few seconds.
+
+When she looked towards the windows again, the man had disappeared.
+
+She searched the nearby crowd.
+
+Nothing.
+
+It was as if he had never been there.
+
+Mabel frowned.
+
+"Interesting," she whispered.
+
+At precisely 9:17 p.m., the lights flickered.
+
+Once.
+
+Twice.
+
+Then the entire hall went dark.
+
+A few guests screamed. Someone dropped a glass, which shattered against the marble floor. The music stopped abruptly, and the room descended into confusion.
+
+"Everyone remain calm!" a security officer shouted.
+
+Emergency lights activated a few seconds later, filling the hall with a dim red glow.
+
+Security personnel rushed towards the main entrance.
+
+Mabel immediately turned towards the display case.
+
+The chip was gone.
+
+For a moment, she simply stared at the empty space.
+
+Then she moved.
+
+"Nobody leaves this room!" she shouted, displaying her identification.
+
+Several guests turned towards her.
+
+A security guard hurried over.
+
+"Detective, what happened?"
+
+"That's what I'm going to find out. Lock down the exits. Nobody leaves until everyone has been checked."
+
+"But, Detective—"
+
+"Now!"
+
+The guard immediately contacted his colleagues.
+
+Mabel approached the display case. Its glass appeared undamaged, and the electronic locking mechanism showed no obvious signs of forced entry.
+
+She examined the surrounding floor.
+
+No broken equipment.
+
+No scattered tools.
+
+Nothing that suggested an ordinary theft.
+
+Someone had known exactly what they were doing.
+
+She looked towards the ceiling.
+
+The cameras.
+
+If they had captured the incident, the thief would have had very little chance of escaping identification.
+
+"Bring me the security footage," she ordered.
+
+A technician hurried towards the control room.
+
+Mabel continued examining the display case. Then something caught her attention.
+
+A small mark had been scratched into its lower metal frame.
+
+She leaned closer.
+
+It was a symbol.
+
+A circle crossed by a single straight line.
+
+Her expression changed.
+
+She knew that symbol.
+
+Or at least, she had seen it somewhere before.
+
+It had appeared in an old investigative file connected to an aircraft attack that had taken place years earlier.
+
+Flight 17.
+
+The name immediately brought back memories she had spent years trying to avoid.
+
+Her brother.
+
+Mabel's brother had been connected to the investigation surrounding Flight 17.
+
+The aircraft had been attacked in mid-air, and the incident had resulted in one of the most controversial investigations in recent history.
+
+Official reports had been incomplete. Witness accounts had contradicted one another, and several pieces of evidence had disappeared during the investigation.
+
+Her brother had been among the people whose fate remained unexplained.
+
+For years, Mabel had searched for answers.
+
+She had questioned officials, reviewed old reports and followed every available lead.
+
+But nothing had ever provided a satisfactory explanation.
+
+Eventually, the investigation had gone cold.
+
+She had continued with her life, becoming a detective herself, but the unanswered questions had never completely disappeared.
+
+And now, that strange symbol had appeared again.
+
+In the middle of a theft involving one of the most powerful technology companies in Laternlord.
+
+"Detective?"
+
+Mabel turned.
+
+The technician was standing behind her.
+
+"We've checked the system. The cameras aren't responding."
+
+"What do you mean?"
+
+"They went offline during the blackout."
+
+"How long?"
+
+"We're still checking."
+
+Mabel looked at him sharply.
+
+"Find out exactly how long they were offline. I want every available recording, including backup footage."
+
+The technician nodded and hurried away.
+
+Mabel looked down at the symbol once more.
+
+A theft.
+
+A mysterious man.
+
+A missing electronic chip.
+
+And a connection to an aircraft attack that had destroyed her family's peace.
+
+She could no longer regard this as an ordinary criminal investigation.
+
+Something much larger was unfolding.
+
+And somehow, she had become part of it.
+
+It was nearly midnight when Mabel finally left the Grand Meridian Hall.
+
+The police had begun interviewing guests, and the security team had been instructed not to release any information to the media until the initial investigation was complete.
+
+Mr. Granger had remained unusually quiet throughout the questioning.
+
+He had repeatedly insisted that the theft was impossible.
+
+Mabel wasn't convinced.
+
+She sat inside her car, parked across the street from the venue. The city lights reflected against the windscreen, forming long golden streaks across the glass.
+
+She reached for her phone.
+
+There were several missed calls from her department, a message from a colleague and a reminder about an upcoming investigation briefing.
+
+Nothing unusual.
+
+Then her phone vibrated.
+
+An unknown number.
+
+She opened the message.
+
+There were no greetings, no explanation and no identification of the sender.
+
+Only one sentence.
+
+"If you want the truth about Flight 17, follow the light beneath Dellax."
+
+Mabel read it again.
+
+And again.
+
+Her fingers tightened around the phone.
+
+She immediately attempted to call the number.
+
+The call failed.
+
+She tried once more.
+
+Nothing.
+
+Whoever had sent the message had already disappeared.
+
+Mabel looked towards the distant Dellax tower. Its upper floors glowed against the night sky, while the lower levels remained almost completely dark.
+
+She remembered the symbol on the display case.
+
+She remembered the mysterious man near the windows.
+
+And now she had received a message directly connected to her brother.
+
+For years, she had believed that Flight 17 was a tragedy whose secrets might never be uncovered.
+
+Tonight, someone had suggested otherwise.
+
+She started the engine.
+
+As the car moved into the empty streets of Laternlord, she glanced once more at the message.
+
+"Follow the light beneath Dellax."
+
+She didn't know what waited beneath that building.
+
+She didn't know who had sent the message.
+
+And she certainly didn't know whether the person responsible for the theft was connected to her brother's disappearance.
+
+But she knew one thing.
+
+She was going to find out.
+
+Far above her, inside the darkened Dellax tower, a single light switched on in a room that officially did not exist.
+
+Someone stood behind its glass window, watching Mabel's car disappear into the night.
+
+A silver ring glimmered briefly beneath the light.
+
+Its surface carried the same symbol.
+
+A circle crossed by a single line.
+
+And the investigation had only just begun.`,
+
+`Chapter 2: The Missing Chip
+
+The morning after the charity event, Laternlord appeared almost ordinary.
+
+Traffic moved through the financial district, office workers hurried towards their buildings, and the city's enormous digital advertisements continued displaying cheerful promises of a better technological future.
+
+But inside the headquarters of Dellax, nobody was celebrating.
+
+The theft of the electronic chip had become the company's worst nightmare.
+
+By eight in the morning, security personnel had sealed the executive floor. Employees were being questioned, computer systems were undergoing inspection, and a team of technical specialists had been brought in to investigate the security failure.
+
+News of the incident had not yet reached the public.
+
+Mr. Granger intended to keep it that way.
+
+Detective Mabel arrived at the building shortly after nine. She carried a folder containing her initial observations from the previous night.
+
+At the reception desk, a nervous employee immediately recognised her.
+
+"Good morning, Detective. Mr. Granger is expecting you."
+
+"Is he in his office?"
+
+"Yes. He has been waiting since eight."
+
+Mabel nodded and entered the private elevator.
+
+As the doors closed, she looked at her reflection in the metallic wall.
+
+She had barely slept.
+
+The anonymous message about Flight 17 had occupied her thoughts throughout the night. She had considered showing it to her department, but something had stopped her.
+
+She wanted to understand its connection to the theft first.
+
+And she wanted to know whether someone was deliberately leading her towards Dellax.
+
+The elevator stopped.
+
+The doors opened.
+
+Mr. Granger's office occupied the entire eastern corner of the building. Its enormous windows overlooked the financial district, and expensive paintings decorated the walls.
+
+Granger stood behind his desk, speaking to a security officer.
+
+When he noticed Mabel, he ended the conversation.
+
+"Detective. Thank you for coming."
+
+"I assume you've found something?"
+
+Granger gestured towards a chair.
+
+"Unfortunately, no. The chip is missing, and nobody seems capable of explaining how."
+
+Mabel placed her folder on the desk.
+
+"Then let's begin with what we know."
+
+Granger insisted that the theft should have been impossible.
+
+The display case had been constructed using reinforced glass and an electronic locking mechanism. Its internal sensors were connected to Dellax's central security network.
+
+The room had been monitored by multiple cameras, and trained security officers had been stationed nearby throughout the event.
+
+There had been no authorised access to the display case.
+
+Yet the chip had disappeared.
+
+"Was the case opened manually?" Mabel asked.
+
+"No."
+
+"Was the glass damaged?"
+
+"No."
+
+"Did anyone possess an additional key?"
+
+"Only a limited number of senior technical officers."
+
+"Names?"
+
+Granger hesitated.
+
+"I'll provide the list."
+
+Mabel studied him.
+
+"Mr. Granger, I want to make something clear. I'm not here to protect Dellax's reputation. I'm here to investigate a theft."
+
+Granger leaned back.
+
+"I understand, Detective."
+
+"Good. Then I want unrestricted access to your security records."
+
+"Of course."
+
+His answer came quickly, but his expression suggested otherwise.
+
+Mabel opened her folder.
+
+"According to the preliminary report, every security camera in the main hall went offline during the incident."
+
+"Yes."
+
+"For exactly forty-seven seconds."
+
+Granger looked towards her.
+
+"That's what the technical team believes."
+
+"Forty-seven seconds is a very specific failure."
+
+"Perhaps the system malfunctioned."
+
+"All cameras malfunctioned simultaneously?"
+
+Granger remained silent.
+
+Mabel closed the folder.
+
+"Someone knew the system."
+
+For the first time that morning, Granger's expression tightened.
+
+"Or someone built it to fail."
+
+The words hung between them.
+
+Mabel watched him carefully.
+
+It was an unusual statement from the owner of a company that had spent years advertising its technological reliability.
+
+"Are you suggesting your own security system was deliberately designed with a weakness?"
+
+Granger looked towards the window.
+
+"I'm suggesting that technology is only as trustworthy as the people who control it."
+
+Mabel made a note.
+
+She had a feeling that Granger knew considerably more than he was willing to admit.
+
+The security control room was located on the fourth basement level.
+
+It was a windowless chamber filled with computer terminals, surveillance monitors and communication equipment. Several technicians were working while a supervisor examined a series of system logs.
+
+Mabel entered with a security officer.
+
+"Who was responsible for monitoring the system last night?"
+
+A middle-aged man approached.
+
+"That would be me, Detective. I'm the chief security supervisor."
+
+"Show me the recording immediately before the blackout."
+
+The supervisor entered a command.
+
+Several screens displayed the main hall from different angles.
+
+The footage showed guests moving between tables, waiters carrying drinks and security officers standing near the display case.
+
+Then the lights flickered.
+
+The screens went black.
+
+Forty-seven seconds later, the recordings resumed.
+
+Mabel leaned closer.
+
+"Play the final five seconds before the blackout."
+
+The supervisor replayed the footage.
+
+Nothing unusual appeared at first.
+
+Then Mabel noticed a reflection in one of the glass panels.
+
+A figure was standing near a service entrance.
+
+The image was unclear, but the person appeared to be holding something close to the door.
+
+"Stop."
+
+The supervisor froze the recording.
+
+"Zoom in."
+
+The image became distorted.
+
+Nevertheless, Mabel could distinguish the outline of a hand.
+
+There was something metallic around one of the fingers.
+
+"Can you enhance that reflection?"
+
+"We can attempt it."
+
+"Do it."
+
+The supervisor began working on the image.
+
+Mabel turned towards him.
+
+"Who had access to the control room during the event?"
+
+"Me, two technicians and the building security officers."
+
+"Names?"
+
+The supervisor opened a personnel list.
+
+One name immediately caught her attention.
+
+Max Sotec.
+
+Max Sotec was a security guard employed by Dellax.
+
+He had been present during the charity event and was listed as one of the officers responsible for monitoring the eastern corridor.
+
+Mabel requested that he be brought to the control room.
+
+Several minutes later, Max entered.
+
+He was a broad-shouldered man in his early forties. His uniform was neatly pressed, although his face looked tired.
+
+"Detective."
+
+"Mr. Sotec. I have a few questions."
+
+"Of course."
+
+"Where were you when the lights went out?"
+
+"Near the eastern corridor."
+
+"Did you see anyone behaving unusually?"
+
+Max hesitated.
+
+"There was a technician."
+
+"What technician?"
+
+"I don't know his name. He was walking towards the control room shortly before the blackout."
+
+"Was he wearing a Dellax uniform?"
+
+"No."
+
+"Then how did you know he was a technician?"
+
+"He was carrying a tool case. He looked like someone who worked with the equipment."
+
+Mabel studied his face.
+
+"Did you stop him?"
+
+"No. I assumed he had permission."
+
+"Did you see him again?"
+
+Max shook his head.
+
+"Not after the lights went out."
+
+Mabel made a note.
+
+"Did you report this to your supervisor?"
+
+"No."
+
+"Why not?"
+
+"I didn't think it was important at the time."
+
+Mabel closed her notebook.
+
+"Mr. Sotec, a valuable experimental device has disappeared from a locked room. Anyone who entered restricted areas without authorisation is important."
+
+Max lowered his eyes.
+
+"I understand."
+
+For a moment, he appeared ready to say something else.
+
+Then he stopped.
+
+Mabel noticed.
+
+"Is there something you're not telling me?"
+
+"No, Detective."
+
+She held his gaze for another second.
+
+"Very well. Don't leave the building until I finish the investigation."
+
+Max nodded and walked out.
+
+Mabel watched him disappear through the doorway.
+
+Something about his hesitation bothered her.
+
+The next clue came from an unexpected source.
+
+While Mabel was examining the company's financial records, a Dellax employee delivered a printed report containing information about several contractors.
+
+One name appeared repeatedly.
+
+Hazzlebux.
+
+The company had received multiple payments from Dellax over the previous eighteen months. The descriptions listed equipment maintenance, security consulting and infrastructure support.
+
+Yet Hazzlebux did not appear anywhere on Dellax's public list of approved employees or departments.
+
+Mabel turned the report towards the employee.
+
+"Who are these people?"
+
+The employee looked uncomfortable.
+
+"Hazzlebux is a private contractor."
+
+"Doing what?"
+
+"I'm not entirely sure."
+
+"How can a company receive payments from Dellax without anyone knowing what work it performs?"
+
+"They report directly to senior management."
+
+"Whose management?"
+
+The employee hesitated.
+
+"I believe Mr. Granger's office."
+
+Mabel wrote down the name.
+
+"Do they have a physical office here?"
+
+"Not that I'm aware of."
+
+"Do they have identification cards?"
+
+"I've never seen one."
+
+Mabel closed the report.
+
+A private contractor receiving money from one of the city's largest technology companies, operating without a visible office or ordinary employee records.
+
+It was beginning to look less like a simple security arrangement and more like a carefully concealed operation.
+
+At approximately four in the afternoon, Mabel returned to Granger's office.
+
+She placed the building plans on his desk.
+
+"I need to see the complete architectural records."
+
+Granger examined the document.
+
+"These are the building plans."
+
+"Not all of them."
+
+"What makes you say that?"
+
+Mabel pointed towards the basement section.
+
+A rectangular portion of the map had been left completely blank.
+
+There were no labels, no measurements and no indication of what occupied the space.
+
+"What is this?"
+
+Granger glanced at the marked area.
+
+"An old section of the building."
+
+"Why has it been removed?"
+
+"Renovation work."
+
+"Then why isn't the renovated section included in the official records?"
+
+Granger folded his hands.
+
+"Some areas are no longer in use."
+
+"Which areas?"
+
+"The older basement facilities."
+
+"Why?"
+
+"They were abandoned years ago."
+
+Mabel leaned forward.
+
+"Mr. Granger, I have asked for the complete building plans. I don't believe that's an unreasonable request."
+
+Granger remained silent for several seconds.
+
+Then he opened a drawer and removed another folder.
+
+"This is all I have."
+
+Mabel examined the additional documents.
+
+The missing section remained absent.
+
+"Are you certain?"
+
+"Yes."
+
+She slowly returned the folder.
+
+"Then I suggest you find out who has the original plans."
+
+Granger did not respond.
+
+Mabel gathered her papers and left.
+
+As she entered the elevator, she looked down at the basement map.
+
+A blank rectangle.
+
+An unexplained contractor.
+
+A missing chip.
+
+Forty-seven seconds of darkness.
+
+The pieces were not fitting together yet.
+
+But they were beginning to form a pattern.
+
+That evening, Mabel returned to her apartment and placed her laptop on the dining table.
+
+She had decided to review the security footage herself.
+
+The enhanced reflection had arrived shortly before she left Dellax. Although the image remained unclear, it revealed something important.
+
+The figure near the service entrance wore a ring.
+
+A silver ring.
+
+Mabel enlarged the image.
+
+The metal surface appeared to contain a small engraved design.
+
+She adjusted the contrast and sharpened the reflection.
+
+Then she froze.
+
+The engraving was unmistakable.
+
+A circle crossed by a single line.
+
+The same symbol she had discovered on the display case.
+
+Mabel leaned back.
+
+Her mind returned to the mysterious message from the previous night.
+
+If you want the truth about Flight 17, follow the light beneath Dellax.
+
+She looked at the photograph of the symbol on her phone.
+
+The same mark had appeared in the old Flight 17 investigation.
+
+Now it had appeared again at Dellax.
+
+She could no longer dismiss the connection as coincidence.
+
+Someone was deliberately leaving clues.
+
+But why?
+
+And why had they chosen her?
+
+Before she could examine the footage again, her phone vibrated.
+
+It was a call from Dellax.
+
+She answered immediately.
+
+"Detective Mabel speaking."
+
+A man's voice came through the receiver.
+
+"Detective, this is the security department. You need to come back to the building."
+
+"What happened?"
+
+There was a pause.
+
+"It's Mr. Granger."
+
+Mabel stood up.
+
+"What about him?"
+
+"He has been found unconscious in his office."
+
+For a moment, she said nothing.
+
+"Has an ambulance been called?"
+
+"Yes. It's on its way."
+
+"Don't touch anything in the office. Preserve the entire area and restrict access."
+
+"Understood."
+
+Mabel ended the call and grabbed her coat.
+
+The investigation had just taken another turn.
+
+When Mabel arrived at Dellax, an ambulance was already outside the building.
+
+Two medical officers were preparing to move Granger onto a stretcher.
+
+His face was pale, and his breathing appeared shallow. A security employee stood nearby, speaking nervously to another officer.
+
+Mabel approached.
+
+"What happened?"
+
+"We found him on the floor beside his desk," the employee explained. "He wasn't responding."
+
+"Did anyone enter the office before you found him?"
+
+"Not that I know of."
+
+Mabel stepped inside.
+
+The office looked almost untouched.
+
+A glass of water stood on the desk. Several documents were scattered near the computer, and a chair had fallen onto its side.
+
+Then she noticed something on the carpet.
+
+A small folded piece of paper.
+
+She put on a pair of gloves and carefully picked it up.
+
+The note contained a single sentence.
+
+"The first lock has opened."
+
+Mabel read it twice.
+
+Her expression hardened.
+
+She looked towards the unconscious businessman being carried through the doorway.
+
+Whatever was happening inside Dellax had become more dangerous than she had imagined.
+
+The theft was no longer the only problem.
+
+Someone was sending messages.
+
+Someone knew about the missing chip.
+
+And someone appeared determined to prevent the truth from emerging.
+
+Mabel placed the note inside an evidence envelope.
+
+Then she looked once more at the empty office.
+
+The first lock had opened.
+
+But what exactly had been locked away?
+
+And who was waiting behind the next door?
+
+Outside, the ambulance doors closed.
+
+The vehicle disappeared into the evening traffic.
+
+Mabel remained standing in the corridor, holding the evidence envelope.
+
+She had the uncomfortable feeling that the next discovery would bring her closer to the mystery of Flight 17.
+
+And perhaps closer to something she had spent years fearing.
+
+The past was no longer staying buried.`,
+`Chapter 3: A Name from the Past
+
+The hospital corridor was unusually quiet.
+
+Detective Mabel stood outside Room 407, staring through the glass panel at Mr. Granger. The businessman lay unconscious beneath a white hospital blanket, connected to several medical monitors. His condition had stabilised, but the doctors had warned that he would need time to recover.
+
+Mabel had spent the last hour questioning the employees who had discovered him.
+
+Nobody had witnessed an attack.
+
+Nobody had heard an argument.
+
+And nobody could explain how an unknown person had entered Granger's supposedly secure office.
+
+The note found beside his desk remained inside an evidence envelope in Mabel's coat.
+
+The first lock has opened.
+
+She looked at it again.
+
+"What lock?" she whispered.
+
+A doctor approached.
+
+"Detective? You can speak with him briefly, but please don't exhaust him."
+
+Mabel nodded.
+
+Inside the room, Granger slowly opened his eyes.
+
+"Mr. Granger?"
+
+He turned his head.
+
+"Detective..."
+
+"Do you remember what happened?"
+
+Granger closed his eyes momentarily.
+
+"I was working. Someone came into my office. I remember a voice, but not the face."
+
+"Did you recognise the voice?"
+
+"No."
+
+Mabel pulled a chair closer.
+
+"I need you to tell me about Project Lantern."
+
+Granger's expression changed immediately.
+
+For several seconds, he said nothing.
+
+Then he looked towards the closed door.
+
+"Where did you hear that name?"
+
+"Perhaps you should tell me why you're afraid of it."
+
+Granger swallowed.
+
+"Project Lantern was originally developed as a classified security programme. Its purpose was to protect communication networks against sophisticated attacks."
+
+"And the chip?"
+
+"Was designed to access the system."
+
+"Access it for what purpose?"
+
+Granger looked directly at her.
+
+"Originally, to protect it. Eventually, to control it."
+
+Mabel waited.
+
+"The people funding the programme wanted something beyond security. They wanted access to information that governments, corporations and ordinary citizens believed was private. They wanted the ability to monitor systems without leaving evidence."
+
+"Who were these people?"
+
+"Investors. Officials. People with influence."
+
+"Names?"
+
+Granger shook his head.
+
+"I can give you three names connected to the project. Alexander Voss, myself, and a contractor whose identity was removed from the official records."
+
+"Hazzlebux?"
+
+Granger looked away.
+
+"Perhaps."
+
+Before Mabel could question him further, someone knocked.
+
+A nurse entered carrying a folded piece of paper.
+
+"This was left at reception for you, Detective."
+
+Mabel accepted it.
+
+There was no name or address.
+
+Only one sentence:
+
+ASK REEVES WHAT HE BURIED.
+
+Mabel's expression hardened.
+
+Inspector Daniel Reeves.
+
+The man who had led the original Flight 17 investigation.
+
+The man she had trusted for years.
+
+And possibly the man who knew what had happened to her brother.
+
+She folded the paper and placed it inside her pocket.
+
+"Thank you, Mr. Granger. Get some rest."
+
+As she reached the door, Granger spoke again.
+
+"Detective?"
+
+She turned.
+
+"Be careful with Reeves. Sometimes the people who investigate a crime know more about it than the people who committed it."
+
+Mabel left without replying.
+
+Outside, the hospital windows reflected the distant lights of Laternlord.
+
+She took out her phone and searched for Reeves's contact.
+
+For years, she had considered him one of the few people who had genuinely tried to uncover the truth about Flight 17.
+
+Now she wondered whether he had been protecting that truth—or hiding it.
+
+She pressed the call button.
+
+The phone rang twice.
+
+Then Reeves answered.
+
+"Mabel? Is everything all right?"
+
+She paused.
+
+"I need to speak with you about Flight 17."
+
+There was silence.
+
+Then Reeves replied in a voice much quieter than before.
+
+"Where are you?"
+
+"At the hospital."
+
+"Don't discuss this over the phone."
+
+"Why?"
+
+Another pause.
+
+"Because, Mabel, some people have been waiting years for you to ask that question."
+
+The call ended.
+
+Mabel slowly lowered her phone.
+
+For the first time since the investigation began, she felt certain of one thing.
+
+Flight 17 had never been just an aircraft attack.
+
+It had been the beginning of something much larger.
+
+And her brother had been caught in its centre. To Be Continue.`
+];
+
+const container=document.getElementById("chapters");
+
+titles.forEach((title,i)=>{
+ const card=document.createElement("div");
+ card.className="chapter";
+ const heading=document.createElement("h3");
+ heading.textContent="Chapter "+(i+1)+": "+title;
+ const button=document.createElement("button");
+ button.textContent="Read Chapter";
+ button.onclick=()=>openChapter(i);
+ card.append(heading,button);
+ container.appendChild(card);
+});
+
+function openChapter(i){
+ document.getElementById("reader").style.display="block";
+ document.getElementById("chapterTitle").textContent=
+ "Chapter "+(i+1)+": "+titles[i];
+ document.getElementById("story").textContent=chapters[i];
+ document.getElementById("reader").scrollIntoView({behavior:"smooth"});
+}
+function back(){
+ document.getElementById("reader").style.display="none";
+ document.getElementById("chapters").scrollIntoView({behavior:"smooth"});
+}
+</script>
+</body>
+</html>
+
